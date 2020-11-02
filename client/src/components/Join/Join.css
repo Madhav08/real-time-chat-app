@@ -1,0 +1,96 @@
+.join {
+  background: #1b1b2f;
+  height: 100vh;
+  width: 100vw;
+  color: rgb(222, 224, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.join__container {
+  background: #162447;
+  height: 55%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  border-radius: 36px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.join__img {
+  height: 180px;
+  width: 80px;
+  border-radius: 15px;
+}
+
+.join__input {
+  width: 230px;
+  height: 3px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #1d2d50;
+  background: #ffffff42;
+  color: white;
+  font-size: 19px;
+  padding: 22px;
+}
+
+.join__input::placeholder {
+  color: rgba(222, 224, 235, 0.466);
+}
+
+.join__heading {
+  font-size: 50px;
+  margin-bottom: 55px;
+}
+
+.join__sham {
+  color: #e43f5a;
+  font-weight: 1800;
+}
+
+.join__text {
+  color: #2d94f3;
+}
+
+.join__button {
+  color: #e43f5a;
+  width: 200px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 900;
+  border: 2px solid #2d94f3;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.4s ease;
+}
+
+.join__button:hover {
+  color: white;
+  background: #e43f5a;
+}
+
+@media only screen and (max-width: 768px) {
+  .join__container {
+    height: 55%;
+    width: 60%;
+  }
+  .join__input {
+    height: 2px;
+    width: 180px;
+    font-size: 16px;
+  }
+  .join__button {
+    width: 120px;
+  }
+  .join__heading {
+    font-size: 45px;
+  }
+}
